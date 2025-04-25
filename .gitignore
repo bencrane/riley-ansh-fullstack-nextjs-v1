@@ -1,5 +1,10 @@
 node_modules/
 .next/
 .vercel/
-.env*
+# Ignore all .env files
+.env
+.env.*
+# But allow example files
+!.env.example
+!.env.template
 .git.backup/
